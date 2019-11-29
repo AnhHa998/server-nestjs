@@ -88,6 +88,7 @@ export class Tech6Service {
                             // tslint:disable-next-line:trailing-comma
                             Technology: item.Technology
                         };
+                        console.log(tech6Item);
                         return resolve(tech6Item);
                     });
                 });
